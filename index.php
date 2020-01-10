@@ -2,7 +2,7 @@
 error_reporting(0);
 if($_POST['custId']=='3487' and preg_match_all('@drive.google.com@',$_POST['link'])){
 
-include_once 'stuff.php';
+include_once 'generate.php';
 
 
 $link = get_drive_dlink($_POST['link']);
@@ -60,7 +60,7 @@ $link = get_drive_dlink($_POST['link']);
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="https://p4pirate.xyz/"><i class="fas fa-home"></i> Movies, Tv shows & more+</a>
+        
       </li>
 
     </ul>
